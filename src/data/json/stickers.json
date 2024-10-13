@@ -1,0 +1,92 @@
+{
+    "1": {
+        "name": "Vinyl Sticker",
+        "company-name": "Sticker World",
+        "price": "₹49.99",
+        "description": "Durable and weather-resistant, perfect for outdoor use."
+    },
+    "2": {
+        "name": "Die-Cut Sticker",
+        "company-name": "Creative Stickers",
+        "price": "₹59.50",
+        "description": "Custom-made to fit the shape of your design, offering a unique look."
+    },
+    "3": {
+        "name": "Bumper Sticker",
+        "company-name": "Auto Decals",
+        "price": "₹39.75",
+        "description": "Designed for cars, durable and long-lasting."
+    },
+    "4": {
+        "name": "Holographic Sticker",
+        "company-name": "Shiny Stickers",
+        "price": "₹69.99",
+        "description": "Reflects light in various colors, creating a shimmering effect."
+    },
+    "5": {
+        "name": "Thermo Sticker",
+        "company-name": "Heat Stickers",
+        "price": "₹79.25",
+        "description": "Changes color in response to temperature shifts."
+    },
+    "6": {
+        "name": "Barcode Sticker",
+        "company-name": "Retail Tags",
+        "price": "₹29.99",
+        "description": "Essential for retail and inventory management."
+    },
+    "7": {
+        "name": "Doming Sticker",
+        "company-name": "3D Labels",
+        "price": "₹89.50",
+        "description": "Coated with a clear resin layer for a three-dimensional appearance."
+    },
+    "8": {
+        "name": "Foil Sticker",
+        "company-name": "Luxury Labels",
+        "price": "₹99.99",
+        "description": "Made with a thin metallic layer, perfect for high-end product labels."
+    },
+    "9": {
+        "name": "Paper Sticker",
+        "company-name": "Eco Stickers",
+        "price": "₹19.99",
+        "description": "Cost-effective and versatile, great for indoor use."
+    },
+    "10": {
+        "name": "Static Cling Sticker",
+        "company-name": "Window Decals",
+        "price": "₹49.50",
+        "description": "Adheres to surfaces without adhesive, perfect for temporary use."
+    },
+    "11": {
+        "name": "Puffy Sticker",
+        "company-name": "Fun Stickers",
+        "price": "₹39.99",
+        "description": "Soft and raised, adds a playful touch to any surface."
+    },
+    "12": {
+        "name": "Kiss-Cut Sticker",
+        "company-name": "Precision Stickers",
+        "price": "₹59.99",
+        "description": "Cut through the vinyl but not the backing, easy to peel."
+    },
+    "13": {
+        "name": "Wall Decal",
+        "company-name": "Home Decor",
+        "price": "₹149.99",
+        "description": "Large stickers designed to adhere to walls, perfect for home decoration."
+    },
+    "14": {
+        "name": "Eco-Friendly Sticker",
+        "company-name": "Green Labels",
+        "price": "₹29.50",
+        "description": "Made from sustainable materials, environmentally friendly."
+    },
+    "15": {
+        "name": "Glow-in-the-Dark Sticker",
+        "company-name": "Night Stickers",
+        "price": "₹79.99",
+        "description": "Glows in the dark, perfect for nighttime visibility."
+    }
+}

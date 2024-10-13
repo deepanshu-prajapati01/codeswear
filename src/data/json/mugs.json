@@ -1,0 +1,182 @@
+{
+    "1": {
+        "name": "Elegant Ceramic Mug",
+        "company-name": "Mug Masters",
+        "price": "₹299.99",
+        "capacity": "350ml",
+        "color": "White",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A sleek and elegant ceramic mug perfect for your morning coffee."
+    },
+    "2": {
+        "name": "Travel Mug",
+        "company-name": "Adventure Gear",
+        "price": "₹499.50",
+        "capacity": "500ml",
+        "color": "Black",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A sturdy travel mug to keep your drinks hot or cold on the go."
+    },
+    "3": {
+        "name": "Vintage Floral Mug",
+        "company-name": "Retro Designs",
+        "price": "₹349.99",
+        "capacity": "300ml",
+        "color": "Blue",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A charming vintage floral mug for a touch of nostalgia."
+    },
+    "4": {
+        "name": "Modern Art Mug",
+        "company-name": "Artisan Mugs",
+        "price": "₹399.99",
+        "capacity": "400ml",
+        "color": "Multicolor",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A modern art mug that adds a splash of color to your drinkware."
+    },
+    "5": {
+        "name": "Insulated Mug",
+        "company-name": "ThermoTech",
+        "price": "₹599.99",
+        "capacity": "450ml",
+        "color": "Silver",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "An insulated mug to keep your beverages at the perfect temperature."
+    },
+    "6": {
+        "name": "Eco-Friendly Bamboo Mug",
+        "company-name": "Green Earth",
+        "price": "₹299.50",
+        "capacity": "350ml",
+        "color": "Natural",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "An eco-friendly bamboo mug for the environmentally conscious."
+    },
+    "7": {
+        "name": "Personalized Photo Mug",
+        "company-name": "Custom Creations",
+        "price": "₹449.99",
+        "capacity": "330ml",
+        "color": "White",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A personalized photo mug to cherish your memories."
+    },
+    "8": {
+        "name": "Classic Black Mug",
+        "company-name": "Simple Elegance",
+        "price": "₹199.99",
+        "capacity": "300ml",
+        "color": "Black",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A classic black mug that never goes out of style."
+    },
+    "9": {
+        "name": "Funny Quote Mug",
+        "company-name": "Humor Hub",
+        "price": "₹249.99",
+        "capacity": "350ml",
+        "color": "White",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A mug with a funny quote to brighten your day."
+    },
+    "10": {
+        "name": "Gradient Color Mug",
+        "company-name": "Color Splash",
+        "price": "₹399.50",
+        "capacity": "400ml",
+        "color": "Gradient",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A gradient color mug that adds a touch of elegance."
+    },
+    "11": {
+        "name": "Animal Print Mug",
+        "company-name": "Wild Designs",
+        "price": "₹349.99",
+        "capacity": "350ml",
+        "color": "Leopard",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "An animal print mug for the adventurous spirit."
+    },
+    "12": {
+        "name": "Minimalist Mug",
+        "company-name": "Modern Living",
+        "price": "₹299.99",
+        "capacity": "300ml",
+        "color": "Gray",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A minimalist mug for a sleek and modern look."
+    },
+    "13": {
+        "name": "Travel Tumbler",
+        "company-name": "On-the-Go",
+        "price": "₹499.99",
+        "capacity": "500ml",
+        "color": "Red",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A travel tumbler to keep your drinks secure while traveling."
+    },
+    "14": {
+        "name": "Ceramic Tea Mug",
+        "company-name": "Tea Time",
+        "price": "₹349.50",
+        "capacity": "350ml",
+        "color": "Green",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A ceramic tea mug perfect for your favorite brew."
+    },
+    "15": {
+        "name": "Stainless Steel Mug",
+        "company-name": "Durable Drinkware",
+        "price": "₹599.50",
+        "capacity": "450ml",
+        "color": "Silver",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A stainless steel mug for durability and style."
+    },
+    "16": {
+        "name": "Color Changing Mug",
+        "company-name": "Magic Mugs",
+        "price": "₹399.99",
+        "capacity": "330ml",
+        "color": "Black",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A color changing mug that reveals a design when hot."
+    },
+    "17": {
+        "name": "Handcrafted Mug",
+        "company-name": "Artisan Craft",
+        "price": "₹499.99",
+        "capacity": "350ml",
+        "color": "Brown",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A handcrafted mug with unique designs."
+    },
+    "18": {
+        "name": "Double Wall Glass Mug",
+        "company-name": "Glassware Co.",
+        "price": "₹699.99",
+        "capacity": "400ml",
+        "color": "Clear",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A double wall glass mug to keep your drinks insulated."
+    },
+    "19": {
+        "name": "Novelty Mug",
+        "company-name": "Fun Finds",
+        "price": "₹299.50",
+        "capacity": "300ml",
+        "color": "Yellow",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "A novelty mug with a fun and quirky design."
+    },
+    "20": {
+        "name": "Office Mug",
+        "company-name": "Work Essentials",
+        "price": "₹249.99",
+        "capacity": "350ml",
+        "color": "Blue",
+        "imageUrl": "https://picsum.photos/612/612",
+        "description": "An office mug perfect for your daily coffee breaks."
+    }
+}
