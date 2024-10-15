@@ -9,7 +9,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A stylish cool blue tee perfect for casual outings."
     },
     "2": {
@@ -22,7 +22,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A classic white tee that never goes out of style."
     },
     "3": {
@@ -35,7 +35,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A trendy graphic print tee for a bold statement."
     },
     "4": {
@@ -48,7 +48,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A comfortable V-neck tee for a relaxed look."
     },
     "5": {
@@ -61,7 +61,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A casual striped tee for everyday wear."
     },
     "6": {
@@ -74,7 +74,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A practical pocket tee for added convenience."
     },
     "7": {
@@ -87,7 +87,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A chic Henley tee for a sophisticated look."
     },
     "8": {
@@ -100,7 +100,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A sporty raglan sleeve tee for active days."
     },
     "9": {
@@ -113,7 +113,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A trendy longline tee for a modern look."
     },
     "10": {
@@ -126,7 +126,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A muscle fit tee to show off your physique."
     },
     "11": {
@@ -139,7 +139,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "An oversized tee for a relaxed and comfortable fit."
     },
     "12": {
@@ -152,7 +152,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A vibrant tie-dye tee for a fun and colorful look."
     },
     "13": {
@@ -165,7 +165,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A camo print tee for a rugged and adventurous style."
     },
     "14": {
@@ -178,7 +178,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A playful polka dot tee for a fun and quirky look."
     },
     "15": {
@@ -191,7 +191,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A stylish color block tee for a modern and trendy look."
     },
     "16": {
@@ -204,7 +204,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A classic ringer tee for a retro-inspired style."
     },
     "17": {
@@ -217,7 +217,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A sporty baseball tee for a casual and athletic look."
     },
     "18": {
@@ -230,7 +230,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A textured slub tee for a unique and stylish appearance."
     },
     "19": {
@@ -243,7 +243,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A trendy burnout tee for a cool and edgy look."
     },
     "20": {
@@ -256,7 +256,7 @@
             "XL": true,
             "XXL": false
         },
-        "imageUrl": "https://picsum.photos/612/612",
+        "imageUrl": "https://picsum.photos/1024/512",
         "description": "A distressed tee for a rugged and worn-in style."
     }
 }

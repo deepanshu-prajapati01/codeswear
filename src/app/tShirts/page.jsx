@@ -1,54 +1,58 @@
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import productJson from '@/data/json/tshirts.json'
 
-
-// icons
-import { PiGreaterThanLight } from "react-icons/pi";
-
-// json data
-import jsonData from '@/data/json/tshirts.json';
-
+// card
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import CardActionArea from '@mui/material/CardActionArea';
+import CardActions from '@mui/material/CardActions';
+import Link from 'next/link';
 
 
 const tShirtsPage = () => {
     return (
-        <div className='text-black body-font'>
-            <section className="text-gray-600 min-h-svh my-4 body-font px-5 bg-neutral-800">
+        <div className='bg-neutral-900 py-10'>
+            <div className='flex gap-5 justify-center items-center flex-wrap'>
+                {Object.entries(productJson).map(([product, productDetails]) => (
+                    <Card key={product} sx={{ maxWidth: 384, minWidth: 345 }}>
+                        <Link href={`/tShirts/${product}`}>
+                            <CardActionArea>
+                                <CardMedia
+                                    component="img"
+                                    height="140"
+                                    image={productDetails['imageUrl']}
+                                    alt={productDetails['name']}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        {productDetails['name']}
+                                    </Typography>
+                                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                        {productDetails['description']}
+                                    </Typography>
 
-                <div id='breadcrumbs' className='mx-5 py-2'>
-                    <ul className='flex gap-x-2 items-center text-white'>
-                        <Link href={'/'} ><li className='hover:underline'>Home</li></Link>
-                        <PiGreaterThanLight />
-                        <Link href={'/'} ><li className='hover:underline'>Tshirts</li></Link>
-                    </ul>
-                </div>
-
-
-                <div className="container px-5 py-16 mx-auto">
-                    <div className="flex flex-wrap items-center justify-around ">
-                        {/* each image card */}
-
-                        {Object.entries(jsonData).map(([key, value]) => {
-
-                            return (<div key={key} className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-sm shadow-gray-200 m-5">
-                                <Link href={'/products'} className="block">
-                                    <Image quality={25} width={612} height={612} alt="ecommerce" className="object-cover object-center w-full h-full block" src={value['imageUrl']} />
-                                </Link>
-                                <div className="mt-4">
-                                    <h3 className="text-gray-700  text-xs tracking-widest title-font mb-1">{value['company-name']}</h3>
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">{value['name']}</h2>
-                                    <p className="mt-1 text-gray-800 ">{value['price']}</p>
-                                </div>
-                            </div>
-                            )
-
-                        })}
+                                    <Typography variant="body2">{productDetails['price']}</Typography>
 
 
-                    </div>
-                </div>
-            </section>
+
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button size="medium" className='bg-yellow-500 text-white'>
+                                    Add to Cart
+                                </Button>
+
+                                <Button size='medium' className='bg-green-500 text-white'>
+Buy Now
+                                </Button>
+                            </CardActions>
+                        </Link>
+                    </Card>
+                ))}
+            </div>
         </div>
     )
 }

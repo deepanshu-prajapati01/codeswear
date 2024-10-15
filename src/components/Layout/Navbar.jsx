@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 
@@ -14,7 +14,6 @@ import { PiMinusCircleBold, PiPlusCircleBold } from 'react-icons/pi';
 
 const Navbar = () => {
 
-    const sideBarToggleRef = useRef(null);
     const [isSideBarOpen, setIsSideBarOpen] = useState(false)
 
 
@@ -88,6 +87,10 @@ const Navbar = () => {
         {
             label: 'Mugs',
             href: '/mugs',
+        },
+        {
+            label: "Dummy",
+            href: "/products"
         }
     ]
 
@@ -103,7 +106,7 @@ const Navbar = () => {
                     {links.map((item) => (
                         <li className='group' key={item['href']}>
                             <Link href={item['href']}>{item['label']}</Link>
-                            <div className='group-hover:w-full text-white w-0 h-[2px] rounded-full bg-white transition-all delay-750'></div>
+                            <div className='group-hover:w-full w-0 h-[2px] rounded-full bg-pink-400 transition-all delay-750'></div>
                         </li>
                     ))}
                 </ul>
@@ -113,7 +116,7 @@ const Navbar = () => {
                 <FaCartShopping onClick={toggleCart} className='cursor-pointer text-xl sm:text-lg text-pink-500 font-bold' />
             </div>
 
-            <section useRef={sideBarToggleRef} className={`min-h-screen ${isSideBarOpen ? ' translate-x-96' : 'translate-x-0'} absolute top-0 right-0 transform transition-transform   rounded-l-md shadow-lg w-72 sm:w-96 text-white bg-gray-700 py-8`}>
+            <section className={`min-h-screen ${isSideBarOpen ? ' translate-x-0' : 'sm:translate-x-96 translate-x-72'} absolute top-0 right-0 transform transition-transform   rounded-l-md shadow-lg w-72 sm:w-96 text-white bg-gray-700 py-8`}>
 
                 {/* Button to close this sideBar */}
                 <FaCircleXmark onClick={toggleCart} className='absolute text-xl cursor-pointer top-5 right-5' />

@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main className='min-h-svh pt-40 sm:py-16 bg-neutral-800 overflow-x-hidden'>
+        <main className='text-white min-h-svh pt-40 sm:py-16 bg-neutral-800 overflow-x-hidden'>
           {children}
         </main>
         <Footer />
