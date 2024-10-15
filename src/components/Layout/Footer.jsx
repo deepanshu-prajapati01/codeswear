@@ -7,8 +7,8 @@ import Logo from '@/../public/Assets/navLogo.png'
 
 const Footer = () => {
     return (
-        <footer className="text-gray-200 body-font">
-            <div className="bg-neutral-900 container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <footer className="bg-neutral-900 text-gray-200 body-font">
+            <div className=" container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-white ">
                         <Image width={200} height={40} src={Logo.src} alt='CodesWear' />
