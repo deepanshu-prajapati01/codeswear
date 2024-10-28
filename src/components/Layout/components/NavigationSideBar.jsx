@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import Link from 'next/link';
 import { FaCircleXmark } from 'react-icons/fa6';
 
@@ -70,9 +70,9 @@ const NavigationSideBar = ({ isMenuExpanded, setIsMenuExpanded }) => {
 
 
     return (
-        <nav className={`text-pink-500 absolute left-0 top-0 w-full min-h-screen md:w-auto md:min-h-0 flex md:relative md:ml-5 transition-transform duration-500 ${isMenuExpanded ? 'translate-x-0' : '-translate-x-full'} `}>
+        <nav className={`text-pink-500 absolute left-0 top-0 w-full min-h-screen md:w-auto md:min-h-0 flex md:relative md:ml-5 transition-transform duration-500 ${isMenuExpanded === true ? 'translate-x-0' : '-translate-x-full'} `}>
 
-            <div className='flex flex-col flex-[45] bg-black shadow-lg pr-3 shadow-pink-500 md:shadow-none md:bg-transparent'>
+            <div className='flex flex-col flex-[45] md:flex-grow bg-black shadow-lg pr-3 shadow-pink-500 md:shadow-none md:bg-transparent'>
 
                 {/* This contains a close button when clicked close the expanded menu */}
                 <div className='mb-3 p-2 flex justify-end text-xl md:hidden'>
@@ -85,7 +85,7 @@ const NavigationSideBar = ({ isMenuExpanded, setIsMenuExpanded }) => {
                     {navigationLinks.map((item) => (
                         <li className='group py-2 md:py-0' key={item['link']}>
                             <Link
-                                onClick={() => { setIsMenuExpanded(false) }}
+                                onClick={() => { handleResize() }}
                                 className='flex space-x-2 md:space-x-0 items-center' href={item['link']}>
                                 {item['icon']}
                                 <span className='text-nowrap'>{item['name']}</span>
@@ -98,8 +98,8 @@ const NavigationSideBar = ({ isMenuExpanded, setIsMenuExpanded }) => {
 
 
             {/* Div when clicked, close the expandedMenu */}
-            <div className='flex items-center flex-[55]' onClick={() => {
-                setIsMenuExpanded(!isMenuExpanded);
+            <div className='flex items-center flex-[55] md:hidden' onClick={() => {
+                setIsMenuExpanded(false);
             }}></div>
 
 

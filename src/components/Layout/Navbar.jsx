@@ -34,7 +34,7 @@ const Navbar = () => {
 
             {/* Starting of the navbar */}
             <div className='flex items-center gap-x-5'>
-                <span className='text-xl text-white w-fit ml-5 md:hidden'>
+                <span className='text-xl text-pink-500 w-fit ml-5 md:hidden'>
                     <AiOutlineMenu onClick={() => setIsMenuExpanded(!isMenuExpanded)} className='cursor-pointer' />
                 </span>
 
